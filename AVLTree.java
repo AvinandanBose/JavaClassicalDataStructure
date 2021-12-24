@@ -117,6 +117,21 @@ public  class AVLTree{
 
         }
     }
+    int heightofAVLTree(Node N ){
+        if(N == null){
+            return 0;
+        }
+        else{
+            int lDepth = heightofAVLTree(N.left);
+            int rDepth = heightofAVLTree(N.right);
+            if (lDepth > rDepth){
+                return  lDepth+1;
+            }
+            else {
+                return rDepth+1;
+            }
+        }
+    }
     public static void main(String[]args){
         AVLTree a = new AVLTree();
         a.root = a.insertNode(a.root,33);
@@ -136,6 +151,8 @@ public  class AVLTree{
         System.out.println("Post Order:");
         a.postOrder(a.root);
         System.out.println();
+        System.out.println("Height of AVL Tree:");
+        System.out.println(a.heightofAVLTree(a.root));
     }
     }
 
