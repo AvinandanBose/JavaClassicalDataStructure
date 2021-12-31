@@ -9,7 +9,8 @@ public class SieveOfErastothenes1 {
         for(int i=2;i<=num;i++){
             prime[i]=true;
         }
-        for(int p =2;p<=Math.sqrt(num);p++){
+        for(int p =2;p<=Math.floor(Math.sqrt(num));p++)//Math.Floor not necessary
+        {
             if(prime[p]){
                 for(int j=p;j*p<=num;j++){
                     prime[j*p]=false;
