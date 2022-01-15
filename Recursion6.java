@@ -8,7 +8,8 @@ public class Recursion6 {
         if(n==0){
             return 1;
         }
-        int xpower = x * calcpower(x,n-1);
+
+        int xpower =  x*calcpower(x,n-1);
         return xpower;
     }
     public static void main(String[]args){
