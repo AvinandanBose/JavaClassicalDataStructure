@@ -6,6 +6,10 @@
 <ul>
 <h3> <a href="https://github.com/AvinandanBose/JavaClassicalDataStructure/blob/main/Euclid.java">1.Euclid’s Algorithm To Find GCD(m,n)</a></h3>
 <h3> <a href="https://github.com/AvinandanBose/JavaClassicalDataStructure/blob/main/ConsIntCheckAlgo.java">2. Consecutive Integer Checking Algorithm  To Find Greatest Common Digit(GCD)</a></h3>
+  
+<h3> <a href="https://github.com/AvinandanBose/JavaClassicalDataStructure/blob/main/MiddleSchoolProc.java">3. Middle School Procedure To  Find Greatest Common Digit(GCD)</a></h3>
+  
+  
 
 </ul>
 
