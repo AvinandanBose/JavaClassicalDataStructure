@@ -21,3 +21,9 @@
 </ul>
 </ul>
 
+<h1>2.  Need for Analysing Algorithm</h1>
+<ul>
+
+<h3> <a href="https://github.com/AvinandanBose/JavaClassicalDataStructure/blob/main/java_sequential_Search.java">1. Sequential Search</a></h3>
+</ul>
+
